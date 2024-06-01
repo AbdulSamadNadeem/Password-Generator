@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Random Password App</h1>
+        <div class="heading-wrapper"><h2 class="work">Password</h2>
+        </div>
+        
+        <textarea name="" id="userInp"></textarea>
+        <input type="text"  id="lenght" placeholder="Length" max="20">
+        <p id="error"></p>
+        <div class="firstCheck">
+            <input type="checkbox" name="" id="Uppercase"><span class="Uppercase">UpperCase</span>
+        </div>
+        <div class="secondCheck">
+            <input type="checkbox" name="" id="Lowercase"><span class="Lowercase">Lowercase</span>
+        </div>
+       <div class="thirdcheck">
+        <input type="checkbox" name="" id="Symbols"><span class="Symbols">Symbols</span>
+       </div>
+        <div class="fourthcheck">
+            <input type="checkbox" name="" id="Numbers"><span class="Numbers">Numbers</span>
+        </div>
+        <p id="error2"></p>
+        <button class="submit" id="calc" onclick="passwordgenerator()">Generate</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

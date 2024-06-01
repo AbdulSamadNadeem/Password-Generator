@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  width: 600px;
+  height: 700px;
+  border: 2px solid #000000;
+  margin: 70px auto;
+  background-color:  #2f3640;
+  border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #fbc531;
+    font-size: 50px;
+}
+#userInp {
+    
+    margin-left: 170px;
+    margin-top: 40px;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+#lenght {
+    margin-left: 170px;
+    margin-top: 10px;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+}
+.firstCheck{
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.firstCheck span{
+    font-size: 25px;
+    color: #fbc531;
+    margin-left: 10px;
+    
+}
+.secondCheck{
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.secondCheck span{
+    font-size: 25px;
+    color: #fbc531;
+    margin-left: 10px;
+    
+}
+.thirdcheck{
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.thirdcheck span{
+    font-size: 25px;
+    color: #fbc531;
+    margin-left: 10px;
+    
+}
+.fourthcheck{
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.fourthcheck span{
+    font-size: 25px;
+    color: #fbc531;
+    margin-left: 10px;
+    
+} span{
+    font-size: 25px;
+    color: #fbc531;
+    margin-left: 10px;
+    
+}
+.container button{
+    margin-top: 40px;  
+    margin-left: 230px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color:#000000;
+    color: #fbc531;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#error{
+
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+
+}
+.heading-wrapper .work{
+    font-size: 40px;
+   margin-left: 190px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #fbc531;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading-wrapper p{
+    text-align: center;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fbc531;
+    margin-top: 10px;
+}
+
+#error2{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
